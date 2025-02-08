@@ -1,0 +1,46 @@
+.header-content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+ 
+}
+
+header h1 {
+    margin-left: 30px;
+    color: greenyellow;
+    font-size: 1CM;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(253, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-top: 10px;}
+    body,fieldset{
+        background-image:url(https://media.istockphoto.com/id/1639475440/photo/old-paper-texture-background-pale-brown-paper-vintage-with-stains-in-sepia-tone.jpg?s=612x612&w=0&k=20&c=Fr0FyL7K90DvEbnuYUcKLTDRM2dBsXeYdF9jjgFnkmQ=);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }      
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;}

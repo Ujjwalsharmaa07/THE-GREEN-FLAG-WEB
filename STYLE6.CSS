@@ -1,0 +1,48 @@
+.header-content {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+ 
+}
+
+header h1 {
+    margin-left: 30px;
+    color: greenyellow;
+    font-size: 1CM;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(253, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-top: 10px;
+}
+.SCROLL{
+    background-color: greenyellow;
+    font-size: 50PX;
+    
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
